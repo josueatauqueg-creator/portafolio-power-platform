@@ -1,7 +1,6 @@
 import { ArrowDownToLine, BarChart3, Mail, Rocket } from 'lucide-react';
-import { profile } from '../data/profile.js';
 
-function Hero({ t }) {
+function Hero({ t, onOpenCvModal }) {
   return (
     <section id="inicio" className="section-shell grid min-h-[calc(100vh-80px)] items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
       <div className="animate-[fadeInUp_0.6s_ease-out]">
@@ -17,10 +16,10 @@ function Hero({ t }) {
             <Rocket size={18} />
             {t.hero.viewProjects}
           </a>
-          <a href={profile.cvUrl} className="secondary-button">
+          <button type="button" onClick={onOpenCvModal} className="secondary-button">
             <ArrowDownToLine size={18} />
             {t.hero.downloadCv}
-          </a>
+          </button>
           <a href="#contacto" className="secondary-button">
             <Mail size={18} />
             {t.hero.contact}

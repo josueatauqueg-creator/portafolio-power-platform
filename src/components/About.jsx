@@ -9,7 +9,7 @@ function About({ t }) {
           <h2 className="section-title">{t.about.title}</h2>
         </div>
         <div className="glass-card rounded-2xl p-6 sm:p-8">
-          <p className="text-lg leading-8 text-slate-700 dark:text-slate-200">
+          <p className="text-lg leading-8 text-justify text-slate-700 dark:text-slate-200">
             {t.about.copy}
           </p>
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

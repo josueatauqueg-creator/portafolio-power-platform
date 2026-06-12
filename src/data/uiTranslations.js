@@ -16,39 +16,39 @@ export const uiTranslations = {
       contactMe: 'Contactarme',
       mode: 'Modo',
       toggleTheme: 'Cambiar modo claro u oscuro',
-      openMenu: 'Abrir menu'
+      openMenu: 'Abrir menú'
     },
     hero: {
-      eyebrow: 'Power Platform | Automatizacion | Datos',
-      title: 'Soluciones Power Platform, Automatizacion y Datos',
-      subtitle: 'Diseno y desarrollo soluciones empresariales con Power Platform, Power Apps, Power Automate, SharePoint y analisis de datos para optimizar procesos y mejorar la gestion operativa.',
+      eyebrow: 'Power Platform | Automatización | Datos',
+      title: 'Soluciones Power Platform, Automatización y Datos',
+      subtitle: 'Diseño y desarrollo soluciones empresariales con Power Platform, integrando Power Apps, Power Automate, SharePoint, Copilot Studio, Power BI e inteligencia artificial aplicada para optimizar procesos, automatizar tareas y convertir datos en información de valor.',
       viewProjects: 'Ver proyectos',
       downloadCv: 'Descargar CV',
       contact: 'Contactar',
       impactPanel: 'Panel de impacto',
       impactTitle: 'Soluciones empresariales medibles',
       stats: [
-        { label: 'Proyectos desarrollados', value: '15+' },
+        { label: 'Proyectos desarrollados', value: '17+' },
         { label: 'Flujos automatizados', value: '20+' },
-        { label: 'Horas optimizadas', value: '300+' },
-        { label: 'Tecnologias aplicadas', value: '10+' }
+        { label: 'Horas optimizadas', value: '5000+' },
+        { label: 'Tecnologias aplicadas', value: '15+' }
       ],
       chips: ['Apps internas', 'Flujos aprobacion', 'BI & datos']
     },
     about: {
       eyebrow: 'Sobre mi',
       title: 'Especialista Power Platform en automatización, datos y transformación digital',
-      copy: 'Desarrollador Power Platform con más de 7 años de experiencia entregando soluciones tecnológicas para empresas de Estados Unidos y Latinoamérica. Especializado en el desarrollo de aplicaciones con Power Apps, automatización con Power Automate y Power BI, con manejo de datos en Dataverse, SharePoint y SQL Server. Amplia experiencia integrando servicios con Azure y optimizando procesos de negocio en áreas como marketing, operaciones, recursos humanos y comercial. He liderado equipos de trabajo en proyectos de transformación digital, con un fuerte enfoque en la mejora continua, escalabilidad y usabilidad de las soluciones. Trabajo de forma cercana con los usuarios, entendiendo sus necesidades y asegurando que las soluciones entregadas generen valor real y sostenido. ',
+      copy: 'Desarrollador Power Platform con más de 8 años de experiencia entregando soluciones tecnológicas para empresas de Estados Unidos y Latinoamérica. Especializado en el desarrollo de aplicaciones con Power Apps, automatización con Power Automate y Power BI, con manejo de datos en Dataverse, SharePoint y SQL Server. Amplia experiencia integrando servicios con Azure y optimizando procesos de negocio en áreas como marketing, operaciones, recursos humanos y comercial. He liderado equipos de trabajo en proyectos de transformación digital, con un fuerte enfoque en la mejora continua, escalabilidad y usabilidad de las soluciones. Trabajo de forma cercana con los usuarios, entendiendo sus necesidades y asegurando que las soluciones entregadas generen valor real y sostenido. ',
       strengths: ['Power Apps', 'Power Automate', 'SharePoint', 'Copilot Studio', 'Power Pages', 'Power BI', 'APIs e Integraciones']
     },
     projects: {
       eyebrow: 'Proyectos',
-      title: 'Casos de automatizacion, aplicaciones empresariales e integracion de datos',
+      title: 'Casos de automatización, aplicaciones empresariales e integración de datos',
       copy: 'Cada proyecto esta cargado desde un archivo editable para que puedas sumar nuevos casos sin tocar los componentes visuales.',
       searchPlaceholder: 'Buscar por cliente, tecnologia o proyecto',
       noResults: 'No se encontraron proyectos con esos filtros.',
-      paginationLabel: 'Paginacion de proyectos',
-      page: 'Pagina',
+      paginationLabel: 'Paginación de proyectos',
+      page: 'Página',
       of: 'de',
       previous: 'Anterior',
       next: 'Siguiente',
@@ -69,7 +69,7 @@ export const uiTranslations = {
     },
     modal: {
       closeDetail: 'Cerrar detalle',
-      solution: 'Solucion',
+      solution: 'Solución',
       database: 'Base de datos',
       toolsAndIntegrations: 'Herramientas e integraciones',
       license: 'Licencia o costo relacionado',
@@ -80,9 +80,9 @@ export const uiTranslations = {
       backToTop: 'Volver arriba'
     },
     techStack: {
-      eyebrow: 'Tecnologias',
-      title: 'Stack orientado a productividad, datos e integracion empresarial',
-      items: ['Power Apps', 'Power Automate', 'SharePoint', 'Dataverse', 'Copilot Studio', 'Azure SQL', 'Power BI', 'UiPath', 'Python', 'AI Builder', 'HTML', 'CSS', 'APIs', 'Microsoft Graph', 'Outlook', 'Teams']
+      eyebrow: 'Tecnologías',
+      title: 'Stack orientado a productividad, datos e integración empresarial',
+      items: ['Power Apps', 'Power Automate', 'SharePoint', 'Dataverse', 'Copilot Studio', 'Azure SQL', 'Power BI', 'UiPath', 'Python', 'AI Builder', 'HTML', 'CSS', 'APIs', 'Microsoft Graph', 'Outlook', 'Teams', 'Java Script', 'React']
     },
     services: {
       eyebrow: 'Servicios',
@@ -91,13 +91,13 @@ export const uiTranslations = {
       cta: 'Conversar sobre un proyecto',
       items: [
         'Desarrollo de aplicaciones en Power Apps',
-        'Automatizacion de procesos con Power Automate',
-        'Modelado de datos en SharePoint y Dataverse',
+        'Automatización de procesos con Power Automate',
+        'Modelado de datos en SharePoint, Dataverse y Power BI',
         'Dashboards e indicadores',
-        'Integracion con APIs',
-        'Automatizacion de reportes',
-        'Consultoria en mejora de procesos',
-        'Prototipos empresariales'
+        'Integración con APIs',
+        'Automatización de reportes',
+        'Consultoría en mejora de procesos',
+        'Capacitaciones y/o Asesorias personalizadas'
       ]
     },
     contact: {
@@ -111,9 +111,16 @@ export const uiTranslations = {
       email: 'Correo',
       emailPlaceholder: 'correo@empresa.com',
       message: 'Mensaje',
-      messagePlaceholder: 'Cuentame que proceso quieres automatizar o que aplicacion necesitas.',
+      messagePlaceholder: 'Cuentame que proceso quieres automatizar o que aplicación necesitas.',
       send: 'Enviar mensaje',
       cv: 'CV'
+    },
+    cvModal: {
+      title: 'Descargar CV',
+      description: 'Selecciona la version del CV que deseas descargar.',
+      spanish: 'Descargar CV en Espanol',
+      english: 'Download CV in English',
+      close: 'Cerrar modal'
     },
     footer: {
       copy: 'Portafolio profesional de soluciones digitales'
@@ -141,24 +148,24 @@ export const uiTranslations = {
     hero: {
       eyebrow: 'Power Platform | Automation | Data',
       title: 'Power Platform, Automation, and Data Solutions',
-      subtitle: 'I design and develop business solutions with Power Platform, Power Apps, Power Automate, SharePoint, and data analytics to optimize processes and improve operational management.',
+      subtitle: 'Design and development of business solutions with Power Platform, integrating Power Apps, Power Automate, SharePoint, Copilot Studio, Power BI and applied artificial intelligence to optimize processes, automate tasks and turn data into valuable information.',
       viewProjects: 'View projects',
       downloadCv: 'Download CV',
       contact: 'Contact',
       impactPanel: 'Impact panel',
       impactTitle: 'Measurable business solutions',
       stats: [
-        { label: 'Projects delivered', value: '15+' },
+        { label: 'Projects delivered', value: '17+' },
         { label: 'Automated flows', value: '20+' },
-        { label: 'Optimized hours', value: '300+' },
-        { label: 'Applied technologies', value: '10+' }
+        { label: 'Optimized hours', value: '5000+' },
+        { label: 'Applied technologies', value: '15+' }
       ],
       chips: ['Internal apps', 'Approval flows', 'BI & data']
     },
     about: {
       eyebrow: 'About me',
       title: 'Power Platform Specialist in automation, data and digital transformation',
-      copy: 'Power Platform Developer with over 7 years of experience delivering technology solutions to companies in the United States and Latin America. Specialized in developing applications with Power Apps, automation with Power Automate and Power BI, and data management in Dataverse, SharePoint, and SQL Server. Extensive experience integrating services with Azure and optimizing business processes in areas such as marketing, operations, human resources, and sales. I have led teams on digital transformation projects, with a strong focus on continuous improvement, scalability, and usability of solutions. I work closely with users, understanding their needs and ensuring that the solutions delivered generate real and sustained value.',
+      copy: 'Power Platform Developer with over 8 years of experience delivering technology solutions to companies in the United States and Latin America. Specialized in developing applications with Power Apps, automation with Power Automate and Power BI, and data management in Dataverse, SharePoint, and SQL Server. Extensive experience integrating services with Azure and optimizing business processes in areas such as marketing, operations, human resources, and sales. I have led teams on digital transformation projects, with a strong focus on continuous improvement, scalability, and usability of solutions. I work closely with users, understanding their needs and ensuring that the solutions delivered generate real and sustained value.',
       strengths: ['Power Apps', 'Power Automate', 'SharePoint', 'Copilot Studio', 'Power Pages', 'Power BI', 'APIs and Integrations']
     },
     projects: {
@@ -212,7 +219,7 @@ export const uiTranslations = {
       items: [
         'Power Apps application development',
         'Process automation with Power Automate',
-        'Data modeling in SharePoint and Dataverse',
+        'Data modeling in SharePoint, Dataverse and Power BI',
         'Dashboards and indicators',
         'API integrations',
         'Report automation',
@@ -234,6 +241,13 @@ export const uiTranslations = {
       messagePlaceholder: 'Tell me what process you want to automate or what application you need.',
       send: 'Send message',
       cv: 'CV'
+    },
+    cvModal: {
+      title: 'Download CV',
+      description: 'Select the CV version you want to download.',
+      spanish: 'Descargar CV en Espanol',
+      english: 'Download CV in English',
+      close: 'Close modal'
     },
     footer: {
       copy: 'Professional portfolio of digital solutions'

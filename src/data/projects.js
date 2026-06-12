@@ -4,8 +4,9 @@ export const projectCategories = [
   'Power Automate',
   'RPA',
   'SQL',
-  'Agent',
-  'Integraciones'
+  'Copilot Studio',
+  'Dataverse',
+  'SharePoint'
 ];
 
 export const projects = [
@@ -692,6 +693,112 @@ export const projects = [
     image: '/projects/comite-gerencial-eeff/comite-cover.png',
     gallery: [
       '/projects/comite-gerencial-eeff/comite-cover.png'
+    ],
+    featured: true
+  },
+  {
+    id: 18,
+    title: 'TimeTrack - Control de Horas y Actividades',
+    client: 'ASTRA',
+    category: 'Power Apps',
+    description: 'TimeTrack es una aplicación diseñada para el registro, control y validación centralizada del tiempo laboral de los colaboradores, permitiendo digitalizar y optimizar procesos que anteriormente se realizaban de forma manual o poco estructurada. La solución facilita el seguimiento de horas trabajadas y actividades realizadas en los diferentes proyectos de la organización.',
+    solution: 'La implementación de TimeTrack surgió como respuesta a la necesidad de mejorar la gestión y control del tiempo laboral, debido a que el modelo anterior presentaba limitaciones en trazabilidad, disponibilidad de información, validación oportuna de horas y eficiencia operativa. Se desarrolló una Canvas App en Power Apps conectada a SharePoint Lists para registrar horas, actividades, proyectos y validaciones. Power Automate se utilizó para enviar notificaciones por Outlook, apoyar el seguimiento del proceso y mejorar la comunicación entre colaboradores y responsables.',
+    tools: [
+      'Power Apps',
+      'Power Automate',
+      'SharePoint',
+      'Outlook'
+    ],
+    database: 'SharePoint Lists',
+    integrations: [
+      'SharePoint Lists',
+      'Power Automate',
+      'Outlook',
+      'Notificaciones automáticas',
+      'Registro de horas trabajadas',
+      'Seguimiento de actividades',
+      'Validación de tiempos',
+      'Control por proyecto'
+    ],
+    benefits: [
+      'Centralización del registro de horas trabajadas',
+      'Seguimiento de actividades por proyecto',
+      'Digitalización de procesos manuales',
+      'Reducción de inconsistencias en registros de tiempo',
+      'Mejor trazabilidad de horas y actividades',
+      'Validación oportuna de información laboral',
+      'Mejora en la eficiencia operativa',
+      'Notificaciones automáticas por Outlook',
+      'Mayor disponibilidad de información para responsables'
+    ],
+    license: 'Microsoft 365 / Power Automate según entorno',
+    image: '/projects/timetrack/timetrack-cover.png',
+    gallery: [
+      '/projects/timetrack/timetrack-cover.png',
+      '/projects/timetrack/time_load.png',
+      '/projects/timetrack/time_cat.png',
+      '/projects/timetrack/time_regis.png',
+      '/projects/timetrack/time_result.png',
+      '/projects/timetrack/time_asig.png'
+
+    ],
+    featured: true
+  },
+
+  {
+    id: 19,
+    title: 'VISIPLAN - Gestión de Visitas a Planta',
+    client: 'ARCA Continental Lindley',
+    category: 'Aplicación Web',
+    description: 'VISIPLAN es una solución web diseñada para centralizar la solicitud, programación, administración y seguimiento de visitas a planta. El sistema permite gestionar solicitudes externas de visitantes, administrar calendarios de visita, controlar instituciones, plantas, usuarios, roles, permisos, auditoría y generar reportes operativos relacionados con visitas, visitantes, encuestas y objetivos.',
+    solution: 'La solución contempla un portal público para que los usuarios externos puedan solicitar visitas a planta, cargar documentación institucional, seleccionar modalidad de visita, planta y fecha tentativa. La información registrada fluye hacia una bandeja interna dentro de VISIPLAN, donde los usuarios autorizados pueden revisar, aprobar, rechazar, programar, editar o cancelar visitas. Además, el sistema incorpora módulos de mantenimiento, seguridad, auditoría, reportes, calendario de visitas, gestión de imágenes de visitas y una sección pública para recordar visitas mediante galerías compartibles en redes sociales.',
+    tools: [
+      'Aplicación Web',
+      'OutSystems',
+      'Azure Active Directory',
+      'HTTPS',
+      'Correo electrónico',
+      'Reportes PDF / Excel'
+    ],
+    database: 'Base de datos transaccional / Repositorio documental',
+    integrations: [
+      'Portal público de solicitud de visitas',
+      'Autenticación con Azure Active Directory',
+      'Carga de archivos PDF y DOCX',
+      'Notificaciones por correo electrónico',
+      'Bandeja interna de solicitudes',
+      'Calendario de visitas',
+      'Gestión de roles y permisos',
+      'Auditoría de acciones del sistema',
+      'Galería de imágenes de visitas',
+      'Compartir en Facebook, LinkedIn y WhatsApp',
+      'Exportación de reportes en PDF y Excel',
+      'Catálogo de encuestas asociado a Microsoft Forms'
+    ],
+    benefits: [
+      'Centralización de solicitudes de visitas a planta',
+      'Digitalización del proceso de registro de visitantes',
+      'Mejor control de instituciones, plantas y calendarios',
+      'Validación de datos obligatorios y documentos adjuntos',
+      'Trazabilidad del estado de cada solicitud',
+      'Gestión de aprobaciones y rechazos de visitas',
+      'Administración de usuarios, roles y permisos',
+      'Auditoría de acciones realizadas en el sistema',
+      'Generación de reportes operativos para seguimiento',
+      'Mejora en la experiencia del visitante mediante portal público',
+      'Disponibilidad de galería pública para recordar visitas',
+      'Reducción del manejo manual de solicitudes y archivos'
+    ],
+    license: 'Licenciamiento según plataforma web / OutSystems / Azure',
+    image: '/projects/visiplan/visiplan-cover.png',
+    gallery: [
+      '/projects/visiplan/visiplan-cover.png',
+      '/projects/visiplan/visiplan-01.png',
+      '/projects/visiplan/consulta.png',
+      '/projects/visiplan/reporte_men.png',
+      '/projects/visiplan/vi_3.png',
+      '/projects/visiplan/vi_4.png',
+      '/projects/visiplan/vi_5.png'
     ],
     featured: true
   }
