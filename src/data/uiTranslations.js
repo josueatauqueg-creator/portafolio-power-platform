@@ -5,11 +5,14 @@ export const uiTranslations = {
       spanish: 'Español',
       english: 'English'
     },
+    profile: {
+      role: 'Desarrollador Power Platform'
+    },
     navbar: {
       home: 'Inicio',
-      about: 'Sobre mi',
+      about: 'Sobre mí',
       projects: 'Proyectos',
-      technologies: 'Tecnologias',
+      technologies: 'Tecnologías',
       services: 'Servicios',
       contact: 'Contacto',
       viewProjects: 'Ver proyectos',
@@ -31,9 +34,9 @@ export const uiTranslations = {
         { label: 'Proyectos desarrollados', value: '17+' },
         { label: 'Flujos automatizados', value: '20+' },
         { label: 'Horas optimizadas', value: '5000+' },
-        { label: 'Tecnologias aplicadas', value: '15+' }
+        { label: 'Tecnologías aplicadas', value: '15+' }
       ],
-      chips: ['Apps internas', 'Flujos aprobacion', 'BI & datos']
+      chips: ['Apps internas', 'Flujos aprobación', 'BI & datos']
     },
     about: {
       eyebrow: 'Sobre mi',
@@ -45,7 +48,7 @@ export const uiTranslations = {
       eyebrow: 'Proyectos',
       title: 'Casos de automatización, aplicaciones empresariales e integración de datos',
       copy: 'Cada proyecto esta cargado desde un archivo editable para que puedas sumar nuevos casos sin tocar los componentes visuales.',
-      searchPlaceholder: 'Buscar por cliente, tecnologia o proyecto',
+      searchPlaceholder: 'Buscar por cliente, tecnología o proyecto',
       noResults: 'No se encontraron proyectos con esos filtros.',
       paginationLabel: 'Paginación de proyectos',
       page: 'Página',
@@ -103,7 +106,7 @@ export const uiTranslations = {
     contact: {
       eyebrow: 'Contacto',
       title: 'Hablemos de tu siguiente solucion digital',
-      copy: 'Puedes editar correo, WhatsApp, LinkedIn, GitHub y CV desde src/data/profile.js.',
+      copy: 'Cuéntame sobre tu proyecto o necesidad digital. Podemos conversar sobre automatización, aplicaciones empresariales, integración de datos o mejora de procesos.',
       name: 'Nombre',
       namePlaceholder: 'Tu nombre',
       company: 'Empresa',
@@ -131,6 +134,9 @@ export const uiTranslations = {
       label: 'Language',
       spanish: 'Español',
       english: 'English'
+    },
+    profile: {
+      role: 'Power Platform Developer'
     },
     navbar: {
       home: 'Home',
@@ -230,7 +236,7 @@ export const uiTranslations = {
     contact: {
       eyebrow: 'Contact',
       title: 'Let us talk about your next digital solution',
-      copy: 'You can edit email, WhatsApp, LinkedIn, GitHub, and CV from src/data/profile.js.',
+      copy: 'Tell me about your project or digital need. We can discuss automation, business apps, data integration, or process improvement.',
       name: 'Name',
       namePlaceholder: 'Your name',
       company: 'Company',

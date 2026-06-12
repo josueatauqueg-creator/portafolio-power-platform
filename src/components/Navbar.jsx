@@ -40,7 +40,7 @@ function Navbar({ darkMode, setDarkMode, language, setLanguage, t }) {
           </span>
           <span>
             <span className="block text-sm font-bold leading-tight text-ink dark:text-white">{profile.name}</span>
-            <span className="block text-xs font-medium text-slate-500 dark:text-slate-400">{profile.role}</span>
+            <span className="block text-xs font-medium text-slate-500 dark:text-slate-400">{t.profile.role}</span>
           </span>
         </a>
 
