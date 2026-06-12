@@ -30,7 +30,7 @@ function CvDownloadModal({ isOpen, onClose, t }) {
         onClick={(event) => event.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-4">
-          <div className="flex gap-3">
+          <div className="flex items-center gap-3">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-aqua/10 text-aqua">
               <FileText size={22} />
             </span>
