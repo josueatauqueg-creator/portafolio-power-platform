@@ -121,7 +121,7 @@ export const uiTranslations = {
     cvModal: {
       title: 'Descargar CV',
       description: 'Selecciona la version del CV que deseas descargar.',
-      spanish: 'Descargar CV en Espanol',
+      spanish: 'Descargar CV en Español',
       english: 'Download CV in English',
       close: 'Cerrar modal'
     },

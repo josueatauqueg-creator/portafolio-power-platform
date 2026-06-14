@@ -19,8 +19,8 @@ function Contact({ t, onOpenCvModal }) {
   const feedbackText = {
     sending: isEnglish ? 'Sending...' : 'Enviando...',
     required: isEnglish ? 'Please complete name, email, and message.' : 'Completa nombre, correo y mensaje.',
-    success: isEnglish ? 'Message sent successfully. I will contact you soon.' : 'Mensaje enviado correctamente. Te contactare pronto.',
-    error: isEnglish ? 'The message could not be sent. Please try again.' : 'No se pudo enviar el mensaje. Intentalo nuevamente.'
+    success: isEnglish ? 'Message sent successfully. I will contact you soon.' : 'Mensaje enviado correctamente. Te contactaré pronto.',
+    error: isEnglish ? 'The message could not be sent. Please try again.' : 'No se pudo enviar el mensaje. Inténtalo nuevamente.'
   };
 
   const handleChange = (event) => {
@@ -157,11 +157,10 @@ function Contact({ t, onOpenCvModal }) {
           </label>
           {submitStatus && (
             <p
-              className={`mt-4 rounded-xl border px-4 py-3 text-sm font-semibold ${
-                submitStatus.type === 'success'
-                  ? 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-200'
-                  : 'border-red-200 bg-red-50 text-red-700 dark:border-red-400/30 dark:bg-red-400/10 dark:text-red-200'
-              }`}
+              className={`mt-4 rounded-xl border px-4 py-3 text-sm font-semibold ${submitStatus.type === 'success'
+                ? 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-200'
+                : 'border-red-200 bg-red-50 text-red-700 dark:border-red-400/30 dark:bg-red-400/10 dark:text-red-200'
+                }`}
             >
               {submitStatus.message}
             </p>
