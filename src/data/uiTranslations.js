@@ -6,7 +6,7 @@ export const uiTranslations = {
       english: 'English'
     },
     profile: {
-      role: 'Líder de Power Platform y Automatización'
+      role: 'Power Platform & Automation Lead'
     },
     navbar: {
       home: 'Inicio',
