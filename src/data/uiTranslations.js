@@ -6,7 +6,7 @@ export const uiTranslations = {
       english: 'English'
     },
     profile: {
-      role: 'Desarrollador Power Platform'
+      role: 'Líder de Power Platform y Automatización'
     },
     navbar: {
       home: 'Inicio',
@@ -136,7 +136,7 @@ export const uiTranslations = {
       english: 'English'
     },
     profile: {
-      role: 'Power Platform Developer'
+      role: 'Power Platform & Automation Lead'
     },
     navbar: {
       home: 'Home',
