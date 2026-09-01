@@ -53,11 +53,11 @@ function CvDownloadModal({ isOpen, onClose, t }) {
         <p className="mt-4 text-sm leading-6 text-slate-600 dark:text-slate-300">{t.cvModal.description}</p>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2">
-          <a href="/cv/cv-es.pdf" download className="primary-button">
+          <a href="/cv/cv1-es.pdf" download className="primary-button">
             <Download size={18} />
             {t.cvModal.spanish}
           </a>
-          <a href="/cv/cv-en.pdf" download className="primary-button">
+          <a href="/cv/cv1-en.pdf" download className="primary-button">
             <Download size={18} />
             {t.cvModal.english}
           </a>
